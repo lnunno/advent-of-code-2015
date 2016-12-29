@@ -18,15 +18,18 @@ where F: Fn(u8) -> u8{
 }
 
 fn turn_on(lights: &mut Lights, xstart: u16, ystart: u16, xend: u16, yend: u16) {
-    turn(lights, xstart, ystart, xend, yend, |_: u8| -> u8 { 1 });
+    turn(lights, xstart, ystart, xend, yend, |x: u8| -> u8 { x + 1 });
 }
 
 fn turn_off(lights: &mut Lights, xstart: u16, ystart: u16, xend: u16, yend: u16) {
-    turn(lights, xstart, ystart, xend, yend, |_: u8| -> u8 { 0 });
+    turn(lights, xstart, ystart, xend, yend, |x: u8| -> u8 {
+        if x == 0 { 0 }
+        else { x - 1}
+     });
 }
 
 fn toggle(lights: &mut Lights, xstart: u16, ystart: u16, xend: u16, yend: u16) {
-    turn(lights, xstart, ystart, xend, yend, |x: u8| -> u8 { x ^ 1 });
+    turn(lights, xstart, ystart, xend, yend, |x: u8| -> u8 { x + 2 });
 }
 
 // Get the number of lights that are on.
@@ -34,7 +37,7 @@ fn num_on_lights(lights: &Lights) -> u64 {
     let mut i = 0;
     for arr in lights.iter() {
         for value in arr.iter() {
-            if (*value) == 1 {
+            if (*value) >= 1 {
                 i += 1;
             }
         }
@@ -44,10 +47,10 @@ fn num_on_lights(lights: &Lights) -> u64 {
 
 // Get the total brightness of all the lights.
 fn total_brightness(lights: &Lights) -> u64 {
-    let mut i = 0;
+    let mut i: u64 = 0;
     for arr in lights.iter() {
         for value in arr.iter() {
-            i += (*value);
+            i += (*value) as u64;
         }
     }
     return i
