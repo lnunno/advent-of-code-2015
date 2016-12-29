@@ -1,0 +1,12 @@
+[package]
+
+name = "day07"
+version = "0.0.1"
+authors = [ "Lucas Nunno" ]
+
+[[bin]]
+name = "day07"
+path = "day07.rs"
+
+[dependencies]
+regex = "0.1.80"
