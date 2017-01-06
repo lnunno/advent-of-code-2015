@@ -1,0 +1,375 @@
+""                                            Chars in code:        2                                               Chars in memory:        0 
+"abc"                                         Chars in code:        5 abc                                           Chars in memory:        3 
+"aaa\"aaa"                                    Chars in code:       10 aaa"aaa                                       Chars in memory:        7 
+"\\x12"                                       Chars in code:        7 \x12                                          Chars in memory:        4 
+(0, 4) x12
+"\x12"                                        Chars in code:        6 \x12                                          Chars in memory:        4 
+"azlgxdbljwygyttzkfwuxv"                      Chars in code:       24 azlgxdbljwygyttzkfwuxv                        Chars in memory:       22 
+(20, 24) \x9
+"v\xfb\"lgs\"kvjfywmut\x9cr"                  Chars in code:       28 v\xfb"lgs"kvjfywmut\x9cr                      Chars in memory:       24 
+"merxdhj"                                     Chars in code:        9 merxdhj                                       Chars in memory:        7 
+"dwz"                                         Chars in code:        5 dwz                                           Chars in memory:        3 
+"d\\gkbqo\\fwukyxab\"u"                       Chars in code:       23 d\gkbqo\fwukyxab"u                            Chars in memory:       18 
+(24, 28) \x7
+"k\xd4cfixejvkicryipucwurq\x7eq"              Chars in code:       32 k\xd4cfixejvkicryipucwurq\x7eq                Chars in memory:       30 
+"nvtidemacj\"hppfopvpr"                       Chars in code:       23 nvtidemacj"hppfopvpr                          Chars in memory:       20 
+"kbngyfvvsdismznhar\\p\"\"gpryt\"jaeh"        Chars in code:       38 kbngyfvvsdismznhar\p""gpryt"jaeh              Chars in memory:       32 
+(6, 10) \x0
+"khre\"o\x0elqfrbktzn"                        Chars in code:       22 khre"o\x0elqfrbktzn                           Chars in memory:       19 
+(9, 14) \x50
+"nugkdmqwdq\x50amallrskmrxoyo"                Chars in code:       30 nugkdmqwdq\x50amallrskmrxoyo                  Chars in memory:       28 
+"jcrkptrsasjp\\\"cwigzynjgspxxv\\vyb"         Chars in code:       37 jcrkptrsasjp\"cwigzynjgspxxv\vyb              Chars in memory:       32 
+"ramf\"skhcmenhbpujbqwkltmplxygfcy"           Chars in code:       35 ramf"skhcmenhbpujbqwkltmplxygfcy              Chars in memory:       32 
+"aqjqgbfqaxga\\fkdcahlfi\"pvods"              Chars in code:       32 aqjqgbfqaxga\fkdcahlfi"pvods                  Chars in memory:       28 
+"pcrtfb"                                      Chars in code:        8 pcrtfb                                        Chars in memory:        6 
+(0, 4) x83
+"\x83qg\"nwgugfmfpzlrvty\"ryoxm"              Chars in code:       32 \x83qg"nwgugfmfpzlrvty"ryoxm                  Chars in memory:       28 
+"fvhvvokdnl\\eap"                             Chars in code:       17 fvhvvokdnl\eap                                Chars in memory:       14 
+"kugdkrat"                                    Chars in code:       10 kugdkrat                                      Chars in memory:        8 
+"seuxwc"                                      Chars in code:        8 seuxwc                                        Chars in memory:        6 
+"vhioftcosshaqtnz"                            Chars in code:       18 vhioftcosshaqtnz                              Chars in memory:       16 
+"gzkxqrdq\\uko\"mrtst"                        Chars in code:       22 gzkxqrdq\uko"mrtst                            Chars in memory:       18 
+(7, 12) \x16
+"znjcomvy\x16hhsenmroswr"                     Chars in code:       25 znjcomvy\x16hhsenmroswr                       Chars in memory:       23 
+"clowmtra"                                    Chars in code:       10 clowmtra                                      Chars in memory:        8 
+"\xc4"                                        Chars in code:        6 \xc4                                          Chars in memory:        4 
+"jpavsevmziklydtqqm"                          Chars in code:       20 jpavsevmziklydtqqm                            Chars in memory:       18 
+"egxjqytcttr\\ecfedmmovkyn\"m"                Chars in code:       30 egxjqytcttr\ecfedmmovkyn"m                    Chars in memory:       26 
+"mjulrvqgmsvmwf"                              Chars in code:       16 mjulrvqgmsvmwf                                Chars in memory:       14 
+(24, 29) \x44
+"o\\prxtlfbatxerhev\xf9hcl\x44rzmvklviv"      Chars in code:       40 o\prxtlfbatxerhev\xf9hcl\x44rzmvklviv         Chars in memory:       37 
+"lregjexqaqgwloydxdsc\\o\"dnjfmjcu"           Chars in code:       35 lregjexqaqgwloydxdsc\o"dnjfmjcu               Chars in memory:       31 
+(8, 12) \x8
+(19, 23) \x7
+"lnxluajtk\x8desue\\k\x7abhwokfhh"            Chars in code:       34 lnxluajtk\x8desue\k\x7abhwokfhh               Chars in memory:       31 
+"wrssfvzzn\"llrysjgiu\"npjtdli"               Chars in code:       31 wrssfvzzn"llrysjgiu"npjtdli                   Chars in memory:       27 
+(0, 4) x67
+"\x67lwkks"                                   Chars in code:       11 \x67lwkks                                     Chars in memory:        9 
+"bifw\"ybvmwiyi\"vhol\"vol\xd4"               Chars in code:       31 bifw"ybvmwiyi"vhol"vol\xd4                    Chars in memory:       26 
+"aywdqhvtvcpvbewtwuyxrix"                     Chars in code:       25 aywdqhvtvcpvbewtwuyxrix                       Chars in memory:       23 
+"gc\xd3\"caukdgfdywj"                         Chars in code:       21 gc\xd3"caukdgfdywj                            Chars in memory:       18 
+"uczy\\fk"                                    Chars in code:       10 uczy\fk                                       Chars in memory:        7 
+(7, 11) \x7
+"bnlxkjvl\x7docehufkj\\\"qoyhag"              Chars in code:       32 bnlxkjvl\x7docehufkj\"qoyhag                  Chars in memory:       28 
+"bidsptalmoicyorbv\\"                         Chars in code:       21 bidsptalmoicyorbv\                            Chars in memory:       18 
+"jorscv\"mufcvvfmcv\"ga"                      Chars in code:       24 jorscv"mufcvvfmcv"ga                          Chars in memory:       20 
+"sofpwfal\\a"                                 Chars in code:       13 sofpwfal\a                                    Chars in memory:       10 
+"kcuqtbboaly\"uj\"k"                          Chars in code:       20 kcuqtbboaly"uj"k                              Chars in memory:       16 
+"n\\c"                                        Chars in code:        6 n\c                                           Chars in memory:        3 
+"x\"\xcaj\\xwwvpdldz"                         Chars in code:       21 x"\xcaj\xwwvpdldz                             Chars in memory:       17 
+"eyukphh"                                     Chars in code:        9 eyukphh                                       Chars in memory:        7 
+"wcyjq"                                       Chars in code:        7 wcyjq                                         Chars in memory:        5 
+(14, 18) \x4
+"vjx\"\"hjroj\"l\x4cjwbr"                     Chars in code:       25 vjx""hjroj"l\x4cjwbr                          Chars in memory:       20 
+"xcodsxzfqw\\rowqtuwvjnxupjnrh"               Chars in code:       31 xcodsxzfqw\rowqtuwvjnxupjnrh                  Chars in memory:       28 
+"yc"                                          Chars in code:        4 yc                                            Chars in memory:        2 
+"fpvzldgbdtca\"hqwa"                          Chars in code:       20 fpvzldgbdtca"hqwa                             Chars in memory:       17 
+(3, 7) \x8
+"ymjq\x8ahohvafubra\"hgqoknkuyph"             Chars in code:       33 ymjq\x8ahohvafubra"hgqoknkuyph                Chars in memory:       30 
+"kx\\mkaaklvcup"                              Chars in code:       16 kx\mkaaklvcup                                 Chars in memory:       13 
+"belddrzegcsxsyfhzyz"                         Chars in code:       21 belddrzegcsxsyfhzyz                           Chars in memory:       19 
+"fuyswi"                                      Chars in code:        8 fuyswi                                        Chars in memory:        6 
+"\\hubzebo\"ha\\qyr\"dv\\"                    Chars in code:       26 \hubzebo"ha\qyr"dv\                           Chars in memory:       19 
+"mxvlz\"fwuvx\"cyk\""                         Chars in code:       21 mxvlz"fwuvx"cyk"                              Chars in memory:       16 
+"ftbh\"ro\\tmcpnpvh\"xx"                      Chars in code:       24 ftbh"ro\tmcpnpvh"xx                           Chars in memory:       19 
+"ygi"                                         Chars in code:        5 ygi                                           Chars in memory:        3 
+"rw\"\"wwn\\fgbjumq\"vgvoh\xd0\"mm"           Chars in code:       35 rw""wwn\fgbjumq"vgvoh\xd0"mm                  Chars in memory:       28 
+(6, 11) \x63
+(16, 20) \x2
+"\"pat\"\x63kpfc\"\x2ckhfvxk\"uwqzlx"         Chars in code:       37 "pat"\x63kpfc"\x2ckhfvxk"uwqzlx               Chars in memory:       31 
+"o"                                           Chars in code:        3 o                                             Chars in memory:        1 
+"d\"hqtsfp\xceaswe\"\xc0lw"                   Chars in code:       27 d"hqtsfp\xceaswe"\xc0lw                       Chars in memory:       23 
+"zajpvfawqntvoveal\"\"trcdarjua"              Chars in code:       32 zajpvfawqntvoveal""trcdarjua                  Chars in memory:       28 
+"xzapq"                                       Chars in code:        7 xzapq                                         Chars in memory:        5 
+"rkmhm"                                       Chars in code:        7 rkmhm                                         Chars in memory:        5 
+"byuq"                                        Chars in code:        6 byuq                                          Chars in memory:        4 
+"rwwmt\xe8jg\xc2\"omt"                        Chars in code:       22 rwwmt\xe8jg\xc2"omt                           Chars in memory:       19 
+"nfljgdmgefvlh\"x"                            Chars in code:       18 nfljgdmgefvlh"x                               Chars in memory:       15 
+"rpjxcexisualz"                               Chars in code:       15 rpjxcexisualz                                 Chars in memory:       13 
+"doxcycmgaiptvd"                              Chars in code:       16 doxcycmgaiptvd                                Chars in memory:       14 
+"rq\\\"mohnjdf\\xv\\hrnosdtmvxot"             Chars in code:       33 rq\"mohnjdf\xv\hrnosdtmvxot                   Chars in memory:       27 
+"oqvbcenib\"uhy\\npjxg"                       Chars in code:       23 oqvbcenib"uhy\npjxg                           Chars in memory:       19 
+"pkvgnm\\ruayuvpbpd"                          Chars in code:       20 pkvgnm\ruayuvpbpd                             Chars in memory:       17 
+"kknmzpxqfbcdgng"                             Chars in code:       17 kknmzpxqfbcdgng                               Chars in memory:       15 
+"piduhbmaympxdexz"                            Chars in code:       18 piduhbmaympxdexz                              Chars in memory:       16 
+"vapczawekhoa\\or"                            Chars in code:       18 vapczawekhoa\or                               Chars in memory:       15 
+"tlwn\"avc\"bycg\"\"xuxea"                    Chars in code:       26 tlwn"avc"bycg""xuxea                          Chars in memory:       20 
+"\xcdvryveteqzxrgopmdmihkcgsuozips"           Chars in code:       35 \xcdvryveteqzxrgopmdmihkcgsuozips             Chars in memory:       33 
+"kpzziqt"                                     Chars in code:        9 kpzziqt                                       Chars in memory:        7 
+"sdy\\s\"cjq"                                 Chars in code:       13 sdy\s"cjq                                     Chars in memory:        9 
+"yujs"                                        Chars in code:        6 yujs                                          Chars in memory:        4 
+"qte\"q"                                      Chars in code:        8 qte"q                                         Chars in memory:        5 
+"qyvpnkhjcqjv\"cclvv\"pclgtg\xeak\"tno"       Chars in code:       39 qyvpnkhjcqjv"cclvv"pclgtg\xeak"tno            Chars in memory:       34 
+"xwx"                                         Chars in code:        5 xwx                                           Chars in memory:        3 
+"vibuvv"                                      Chars in code:        8 vibuvv                                        Chars in memory:        6 
+"qq\""                                        Chars in code:        6 qq"                                           Chars in memory:        3 
+"wwjduomtbkbdtorhpyalxswisq\"r"               Chars in code:       31 wwjduomtbkbdtorhpyalxswisq"r                  Chars in memory:       28 
+"afuw\\mfjzctcivwesutxbk\"lk"                 Chars in code:       29 afuw\mfjzctcivwesutxbk"lk                     Chars in memory:       25 
+"e\xcef\\hkiu"                                Chars in code:       14 e\xcef\hkiu                                   Chars in memory:       11 
+"ftdrgzvygcw\"jwsrcmgxj"                      Chars in code:       24 ftdrgzvygcw"jwsrcmgxj                         Chars in memory:       21 
+(7, 12) \x21
+"zrddqfkx\x21dr\"ju\"elybk\"powj\"\"kpryz"    Chars in code:       42 zrddqfkx\x21dr"ju"elybk"powj""kpryz           Chars in memory:       35 
+"dttdkfvbodkma\""                             Chars in code:       17 dttdkfvbodkma"                                Chars in memory:       14 
+"lzygktugpqw"                                 Chars in code:       13 lzygktugpqw                                   Chars in memory:       11 
+(1, 6) \x83
+"qu\x83tes\\u\"tnid\"ryuz"                    Chars in code:       26 qu\x83tes\u"tnid"ryuz                         Chars in memory:       21 
+"\\o\"pe\\vqwlsizjklwrjofg\xe2oau\\rd"        Chars in code:       38 \o"pe\vqwlsizjklwrjofg\xe2oau\rd              Chars in memory:       32 
+"mikevjzhnwgx\"fozrj\"h\""                    Chars in code:       26 mikevjzhnwgx"fozrj"h"                         Chars in memory:       21 
+"ligxmxznzvtachvvbahnff"                      Chars in code:       24 ligxmxznzvtachvvbahnff                        Chars in memory:       22 
+"d\\kq"                                       Chars in code:        7 d\kq                                          Chars in memory:        4 
+"tnbkxpzmcakqhaa"                             Chars in code:       17 tnbkxpzmcakqhaa                               Chars in memory:       15 
+"g\\yeakebeyv"                                Chars in code:       14 g\yeakebeyv                                   Chars in memory:       11 
+(16, 21) \x31
+(23, 27) \x6
+"cqkcnd\"sxjxfnawy\x31zax\x6ceha"             Chars in code:       33 cqkcnd"sxjxfnawy\x31zax\x6ceha                Chars in memory:       30 
+(0, 4) \x0
+"m\x0dtqotffzdnetujtsgjqgwddc"                Chars in code:       30 m\x0dtqotffzdnetujtsgjqgwddc                  Chars in memory:       28 
+(15, 19) \x3
+"masnugb\"etgmxul\x3bqd\\tmtddnvcy"           Chars in code:       35 masnugb"etgmxul\x3bqd\tmtddnvcy               Chars in memory:       31 
+(13, 18) \x23
+"floediikodfgre\x23wyoxlswxflwecdjpt"         Chars in code:       37 floediikodfgre\x23wyoxlswxflwecdjpt           Chars in memory:       35 
+"zu"                                          Chars in code:        4 zu                                            Chars in memory:        2 
+"r"                                           Chars in code:        3 r                                             Chars in memory:        1 
+"\"ashzdbd\"pdvba\xeeumkr\\amnj"              Chars in code:       32 "ashzdbd"pdvba\xeeumkr\amnj                   Chars in memory:       27 
+"ckslmuwbtfouwpfwtuiqmeozgspwnhx"             Chars in code:       33 ckslmuwbtfouwpfwtuiqmeozgspwnhx               Chars in memory:       31 
+"t\\qjsjek\xf9gjcxsyco\"r"                    Chars in code:       26 t\qjsjek\xf9gjcxsyco"r                        Chars in memory:       22 
+(3, 7) \x1
+"hoed\x1b\\tcmaqch\"epdy"                     Chars in code:       25 hoed\x1b\tcmaqch"epdy                         Chars in memory:       21 
+"mgjiojwzc\\ypqcn\xb1njmp\"aeeblxt"           Chars in code:       35 mgjiojwzc\ypqcn\xb1njmp"aeeblxt               Chars in memory:       31 
+(6, 10) \x5
+"\xdf\"h\x5enfracj"                           Chars in code:       19 \xdf"h\x5enfracj                              Chars in memory:       16 
+(0, 3) x6
+"\x6fpbpocrb"                                 Chars in code:       13 \x6fpbpocrb                                   Chars in memory:       11 
+"jbmhrswyyq\\"                                Chars in code:       14 jbmhrswyyq\                                   Chars in memory:       11 
+"wtyqtenfwatji\"ls\\"                         Chars in code:       21 wtyqtenfwatji"ls\                             Chars in memory:       17 
+"voy"                                         Chars in code:        5 voy                                           Chars in memory:        3 
+"awj"                                         Chars in code:        5 awj                                           Chars in memory:        3 
+"rtbj\"j"                                     Chars in code:        9 rtbj"j                                        Chars in memory:        6 
+"hynl"                                        Chars in code:        6 hynl                                          Chars in memory:        4 
+"orqqeuaat\\xu\\havsgr\xc5qdk"                Chars in code:       30 orqqeuaat\xu\havsgr\xc5qdk                    Chars in memory:       26 
+"g\"npyzjfq\"rjefwsk"                         Chars in code:       21 g"npyzjfq"rjefwsk                             Chars in memory:       17 
+"rk\\kkcirjbixr\\zelndx\"bsnqvqj\""           Chars in code:       35 rk\kkcirjbixr\zelndx"bsnqvqj"                 Chars in memory:       29 
+"tecoz"                                       Chars in code:        7 tecoz                                         Chars in memory:        5 
+"dn\"uswngbdk\""                              Chars in code:       16 dn"uswngbdk"                                  Chars in memory:       12 
+"qb\\"                                        Chars in code:        6 qb\                                           Chars in memory:        3 
+"wpyis\\ebq"                                  Chars in code:       12 wpyis\ebq                                     Chars in memory:        9 
+"ppwue\\airoxzjjdqbvyurhaabetv"               Chars in code:       31 ppwue\airoxzjjdqbvyurhaabetv                  Chars in memory:       28 
+"fxlvt"                                       Chars in code:        7 fxlvt                                         Chars in memory:        5 
+"ql\"oqsmsvpxcg\"k"                           Chars in code:       19 ql"oqsmsvpxcg"k                               Chars in memory:       15 
+"vqlhuec\\adw"                                Chars in code:       14 vqlhuec\adw                                   Chars in memory:       11 
+"qzmi\xffberakqqkk"                           Chars in code:       19 qzmi\xffberakqqkk                             Chars in memory:       17 
+"tisjqff\"wf"                                 Chars in code:       13 tisjqff"wf                                    Chars in memory:       10 
+"yhnpudoaybwucvppj"                           Chars in code:       19 yhnpudoaybwucvppj                             Chars in memory:       17 
+"xhfuf\\ehsrhsnfxcwtibd\"ubfpz"               Chars in code:       31 xhfuf\ehsrhsnfxcwtibd"ubfpz                   Chars in memory:       27 
+"ihgjquzhf\""                                 Chars in code:       13 ihgjquzhf"                                    Chars in memory:       10 
+(1, 6) \x66
+"ff\x66dsupesrnusrtqnywoqcn\\"                Chars in code:       30 ff\x66dsupesrnusrtqnywoqcn\                   Chars in memory:       27 
+(0, 5) \x77
+"z\x77zpubbjmd"                               Chars in code:       15 z\x77zpubbjmd                                 Chars in memory:       13 
+(20, 25) \x85
+"\"vhzlbwq\"xeimjt\\xe\x85umho\"m\"\"bmy"     Chars in code:       41 "vhzlbwq"xeimjt\xe\x85umho"m""bmy             Chars in memory:       33 
+"mmuvkioocmzjjysi\"mkfbec\""                  Chars in code:       28 mmuvkioocmzjjysi"mkfbec"                      Chars in memory:       24 
+(10, 14) \x2
+"rpgghowbduw\x2fayslubajinoik\xd0hcfy"        Chars in code:       38 rpgghowbduw\x2fayslubajinoik\xd0hcfy          Chars in memory:       36 
+"xrkyjqul\xdexlojgdphczp\"jfk"                Chars in code:       30 xrkyjqul\xdexlojgdphczp"jfk                   Chars in memory:       27 
+(1, 6) \x07
+(8, 12) \x8
+(12, 17) \x67
+"mg\x07cnr\x8b\x67xdgszmgiktpjhawho"          Chars in code:       36 mg\x07cnr\x8b\x67xdgszmgiktpjhawho            Chars in memory:       34 
+"kdgufhaoab"                                  Chars in code:       12 kdgufhaoab                                    Chars in memory:       10 
+"rlhela\"nldr"                                Chars in code:       14 rlhela"nldr                                   Chars in memory:       11 
+(3, 8) \x87
+"wzye\x87u"                                   Chars in code:       11 wzye\x87u                                     Chars in memory:        9 
+(2, 7) \x75
+"yif\x75bjhnitgoarmfgqwpmopu"                 Chars in code:       29 yif\x75bjhnitgoarmfgqwpmopu                   Chars in memory:       27 
+(11, 15) \x3
+"pvlbyez\"wyy\x3dpgr"                         Chars in code:       21 pvlbyez"wyy\x3dpgr                            Chars in memory:       18 
+"ezdm\"ovkruthkvdwtqwr\"ibdoawzgu"            Chars in code:       34 ezdm"ovkruthkvdwtqwr"ibdoawzgu                Chars in memory:       30 
+"qubp"                                        Chars in code:        6 qubp                                          Chars in memory:        4 
+"b\\kcpegcn\\zgdemgorjnk"                     Chars in code:       25 b\kcpegcn\zgdemgorjnk                         Chars in memory:       21 
+"gjsva\\kzaor\"\"gtpd"                        Chars in code:       22 gjsva\kzaor""gtpd                             Chars in memory:       17 
+"\"kt"                                        Chars in code:        6 "kt                                           Chars in memory:        3 
+"rlymwlcodix"                                 Chars in code:       13 rlymwlcodix                                   Chars in memory:       11 
+"qqtmswowxca\"jvv"                            Chars in code:       18 qqtmswowxca"jvv                               Chars in memory:       15 
+"jni\xebwhozb"                                Chars in code:       14 jni\xebwhozb                                  Chars in memory:       12 
+"zhino\"kzjtmgxpi\"zzexijg"                   Chars in code:       27 zhino"kzjtmgxpi"zzexijg                       Chars in memory:       23 
+"tyrbat\\mejgzplufxixkyg"                     Chars in code:       25 tyrbat\mejgzplufxixkyg                        Chars in memory:       22 
+(8, 13) \x09
+"lhmopxiao\x09\"p\xebl"                       Chars in code:       23 lhmopxiao\x09"p\xebl                          Chars in memory:       20 
+"xefioorxvate"                                Chars in code:       14 xefioorxvate                                  Chars in memory:       12 
+(4, 9) \x46
+"nmcgd\x46xfujt\"w"                           Chars in code:       19 nmcgd\x46xfujt"w                              Chars in memory:       16 
+"\xe3wnwpat\"gtimrb"                          Chars in code:       20 \xe3wnwpat"gtimrb                             Chars in memory:       17 
+"wpq\"xkjuw\xebbohgcagppb"                    Chars in code:       26 wpq"xkjuw\xebbohgcagppb                       Chars in memory:       23 
+"fmvpwaca"                                    Chars in code:       10 fmvpwaca                                      Chars in memory:        8 
+"mlsw"                                        Chars in code:        6 mlsw                                          Chars in memory:        4 
+"fdan\\\x9e"                                  Chars in code:       12 fdan\\x9e                                     Chars in memory:        9 
+"\"f\"fmdlzc"                                 Chars in code:       13 "f"fmdlzc                                     Chars in memory:        9 
+"nyuj\\jnnfzdnrqmhvjrahlvzl"                  Chars in code:       28 nyuj\jnnfzdnrqmhvjrahlvzl                     Chars in memory:       25 
+"zn\"f\xcfsshcdaukkimfwk"                     Chars in code:       25 zn"f\xcfsshcdaukkimfwk                        Chars in memory:       22 
+"uayugezzo\\\"e\"blnrgjaupqhik"               Chars in code:       31 uayugezzo\"e"blnrgjaupqhik                    Chars in memory:       26 
+"efd\"apkndelkuvfvwyyatyttkehc"               Chars in code:       31 efd"apkndelkuvfvwyyatyttkehc                  Chars in memory:       28 
+(14, 19) \x93
+"ufxq\\\"m\"bwkh\x93kapbqrvxxzbzp\\"          Chars in code:       36 ufxq\"m"bwkh\x93kapbqrvxxzbzp\                Chars in memory:       30 
+(9, 14) \x79
+"fgypsbgjak\x79qblbeidavqtddfacq\\i\"h"       Chars in code:       39 fgypsbgjak\x79qblbeidavqtddfacq\i"h           Chars in memory:       35 
+"kcfgpiysdxlgejjvgndb\\dovfpqodw"             Chars in code:       33 kcfgpiysdxlgejjvgndb\dovfpqodw                Chars in memory:       30 
+"\"onpqnssmighipuqgwx\"nrokzgvg"              Chars in code:       32 "onpqnssmighipuqgwx"nrokzgvg                  Chars in memory:       28 
+"vhjrrhfrba\"jebdanzsrdusut\\wbs"             Chars in code:       33 vhjrrhfrba"jebdanzsrdusut\wbs                 Chars in memory:       29 
+"o\xdakymbaxakys"                             Chars in code:       17 o\xdakymbaxakys                               Chars in memory:       15 
+"uwxhhzz\\mtmhghjn\\\\tnhzbejj"               Chars in code:       31 uwxhhzz\mtmhghjn\\tnhzbejj                    Chars in memory:       26 
+"yd\\"                                        Chars in code:        6 yd\                                           Chars in memory:        3 
+(19, 24) \x35
+"bpgztp\\lzwpdqju\"it\x35qjhihjv"             Chars in code:       33 bpgztp\lzwpdqju"it\x35qjhihjv                 Chars in memory:       29 
+"\\my\\b\"klnnto\\\xb3mbtsh"                  Chars in code:       28 \my\b"klnnto\\xb3mbtsh                        Chars in memory:       22 
+(9, 13) \x2
+"ezyvknv\"l\x2bdhhfjcvwzhjgmhwbqd\"\\"        Chars in code:       38 ezyvknv"l\x2bdhhfjcvwzhjgmhwbqd"\             Chars in memory:       33 
+"ftkz\"amoncbsohtaumhl\"wsodemopodq"          Chars in code:       36 ftkz"amoncbsohtaumhl"wsodemopodq              Chars in memory:       32 
+"ifv"                                         Chars in code:        5 ifv                                           Chars in memory:        3 
+"dmzfxvzq"                                    Chars in code:       10 dmzfxvzq                                      Chars in memory:        8 
+"sped\"bvmf\"mmevl\"zydannpfny"               Chars in code:       31 sped"bvmf"mmevl"zydannpfny                    Chars in memory:       26 
+"fjxcjwlv\"pnqyrzatsjwsqfidb"                 Chars in code:       29 fjxcjwlv"pnqyrzatsjwsqfidb                    Chars in memory:       26 
+"muc\xfdqouwwnmuixru\\zlhjintplvtee"          Chars in code:       36 muc\xfdqouwwnmuixru\zlhjintplvtee             Chars in memory:       33 
+"mraqgvmj"                                    Chars in code:       10 mraqgvmj                                      Chars in memory:        8 
+"njopq\"ftcsryo"                              Chars in code:       16 njopq"ftcsryo                                 Chars in memory:       13 
+"enoh\"n"                                     Chars in code:        9 enoh"n                                        Chars in memory:        6 
+(27, 31) \x7
+"t\"ntjhjc\"nzqh\xf7dcohhlsja\x7dtr"          Chars in code:       36 t"ntjhjc"nzqh\xf7dcohhlsja\x7dtr              Chars in memory:       32 
+"flbqcmcoun"                                  Chars in code:       12 flbqcmcoun                                    Chars in memory:       10 
+"dxkiysrn\\dyuqoaig"                          Chars in code:       20 dxkiysrn\dyuqoaig                             Chars in memory:       17 
+"nehkzi\"h\"syktzfufotng\xdafqo"              Chars in code:       32 nehkzi"h"syktzfufotng\xdafqo                  Chars in memory:       28 
+"dzkjg\\hqjk\\\"zfegssjhn"                    Chars in code:       26 dzkjg\hqjk\"zfegssjhn                         Chars in memory:       21 
+"sadlsjv"                                     Chars in code:        9 sadlsjv                                       Chars in memory:        7 
+"vmfnrdb\""                                   Chars in code:       11 vmfnrdb"                                      Chars in memory:        8 
+"ac\\bdp\"n"                                  Chars in code:       12 ac\bdp"n                                      Chars in memory:        8 
+(1, 6) \x89
+"qt\x89h"                                     Chars in code:        9 qt\x89h                                       Chars in memory:        7 
+"lsndeugwvijwde\\vjapbm\\k\\nljuva"           Chars in code:       35 lsndeugwvijwde\vjapbm\k\nljuva                Chars in memory:       30 
+(22, 27) \x64
+"twpmltdzyynqt\\z\\tnund\x64hm"               Chars in code:       31 twpmltdzyynqt\z\tnund\x64hm                   Chars in memory:       27 
+"hpcyata\"ocylbkzdnhujh"                      Chars in code:       24 hpcyata"ocylbkzdnhujh                         Chars in memory:       21 
+(27, 31) \x3
+"hskzq\"knntuhscex\"q\\y\\vqj\x3an"           Chars in code:       35 hskzq"knntuhscex"q\y\vqj\x3an                 Chars in memory:       29 
+"eekwyufvji\\mqgeroekxeyrmymq"                Chars in code:       30 eekwyufvji\mqgeroekxeyrmymq                   Chars in memory:       27 
+"hl\"durthetvri\xebw\\jxu\"rcmiuy"            Chars in code:       34 hl"durthetvri\xebw\jxu"rcmiuy                 Chars in memory:       29 
+"\"fxdnmvnftxwesmvvq\"sjnf\xaabpg\"iary"      Chars in code:       40 "fxdnmvnftxwesmvvq"sjnf\xaabpg"iary           Chars in memory:       35 
+"\"\"nksqso"                                  Chars in code:       12 ""nksqso                                      Chars in memory:        8 
+"ruq\xbezugge\"d\"hwvoxmy\"iawikddxn\"x"      Chars in code:       40 ruq\xbezugge"d"hwvoxmy"iawikddxn"x            Chars in memory:       34 
+"rxxnlfay"                                    Chars in code:       10 rxxnlfay                                      Chars in memory:        8 
+"stcu\"mv\xabcqts\\fasff"                     Chars in code:       25 stcu"mv\xabcqts\fasff                         Chars in memory:       21 
+(17, 22) \x02
+"yrnvwfkfuzuoysfdzl\x02bk"                    Chars in code:       26 yrnvwfkfuzuoysfdzl\x02bk                      Chars in memory:       24 
+"qbdsmlwdbfknivtwijbwtatqfe"                  Chars in code:       28 qbdsmlwdbfknivtwijbwtatqfe                    Chars in memory:       26 
+"\"erqh\\csjph"                               Chars in code:       15 "erqh\csjph                                   Chars in memory:       11 
+"ikfv"                                        Chars in code:        6 ikfv                                          Chars in memory:        4 
+"\xd2cuhowmtsxepzsivsvnvsb"                   Chars in code:       27 \xd2cuhowmtsxepzsivsvnvsb                     Chars in memory:       25 
+"vj"                                          Chars in code:        4 vj                                            Chars in memory:        2 
+"d"                                           Chars in code:        3 d                                             Chars in memory:        1 
+"\\g"                                         Chars in code:        5 \g                                            Chars in memory:        2 
+(4, 9) \x62
+"porvg\x62qghorthnc\"\\"                      Chars in code:       24 porvg\x62qghorthnc"\                          Chars in memory:       20 
+(9, 13) \x0
+"tiks\\kr\"\x0fuejvuxzswnwdjscrk"             Chars in code:       33 tiks\kr"\x0fuejvuxzswnwdjscrk                 Chars in memory:       29 
+"xmgfel\"atma\\zaxmlgfjx\"ajmqf"              Chars in code:       32 xmgfel"atma\zaxmlgfjx"ajmqf                   Chars in memory:       27 
+"oz\\rnxwljc\\\"umhymtwh"                     Chars in code:       25 oz\rnxwljc\"umhymtwh                          Chars in memory:       20 
+(6, 10) \x7
+"wlsxxhm\x7fqx\\gjoyrvccfiner\\qloluqv"       Chars in code:       39 wlsxxhm\x7fqx\gjoyrvccfiner\qloluqv           Chars in memory:       35 
+"k\\ieq"                                      Chars in code:        8 k\ieq                                         Chars in memory:        5 
+"xidjj\"ksnlgnwxlddf\\s\\kuuleb"              Chars in code:       32 xidjj"ksnlgnwxlddf\s\kuuleb                   Chars in memory:       27 
+(15, 19) \x0
+"wjpnzgprzv\\maub\x0cj"                       Chars in code:       23 wjpnzgprzv\maub\x0cj                          Chars in memory:       20 
+"r"                                           Chars in code:        3 r                                             Chars in memory:        1 
+"y"                                           Chars in code:        3 y                                             Chars in memory:        1 
+"\"yecqiei\"ire\\jdhlnnlde\xc5u"              Chars in code:       32 "yecqiei"ire\jdhlnnlde\xc5u                   Chars in memory:       27 
+"drvdiycqib"                                  Chars in code:       12 drvdiycqib                                    Chars in memory:       10 
+"egnrbefezcrhgldrtb"                          Chars in code:       20 egnrbefezcrhgldrtb                            Chars in memory:       18 
+(22, 27) \x55
+"plqodxv\\zm\"uodwjdocri\x55ucaezutm"         Chars in code:       37 plqodxv\zm"uodwjdocri\x55ucaezutm             Chars in memory:       33 
+(7, 12) \x02
+"f\"wexcw\x02ekewx\"alyzn"                    Chars in code:       26 f"wexcw\x02ekewx"alyzn                        Chars in memory:       22 
+"pqajwuk\\\\oatkfqdyspnrupo"                  Chars in code:       28 pqajwuk\\oatkfqdyspnrupo                      Chars in memory:       24 
+(25, 30) \x68
+"rkczj\"fzntabpnygrhamk\\km\x68xfkmr"         Chars in code:       37 rkczj"fzntabpnygrhamk\km\x68xfkmr             Chars in memory:       33 
+(9, 14) \x37
+"wejam\xbac\x37kns"                           Chars in code:       19 wejam\xbac\x37kns                             Chars in memory:       17 
+"qqmlwjk\"gh"                                 Chars in code:       13 qqmlwjk"gh                                    Chars in memory:       10 
+"fdcjsxlgx"                                   Chars in code:       11 fdcjsxlgx                                     Chars in memory:        9 
+"\\cxvxy\"kb\"\"unubvrsq\\y\\awfhbmarj\\"     Chars in code:       41 \cxvxy"kb""unubvrsq\y\awfhbmarj\              Chars in memory:       32 
+"geunceaqr"                                   Chars in code:       11 geunceaqr                                     Chars in memory:        9 
+"tpkg\"svvngk\\sizlsyaqwf"                    Chars in code:       26 tpkg"svvngk\sizlsyaqwf                        Chars in memory:       22 
+(6, 11) \x18
+"\"pa\\x\x18od\\emgje\\"                      Chars in code:       24 "pa\x\x18od\emgje\                            Chars in memory:       18 
+"ffiizogjjptubzqfuh\"cctieqcdh"               Chars in code:       31 ffiizogjjptubzqfuh"cctieqcdh                  Chars in memory:       28 
+"yikhiyyrpgglpos"                             Chars in code:       17 yikhiyyrpgglpos                               Chars in memory:       15 
+"h\\"                                         Chars in code:        5 h\                                            Chars in memory:        2 
+"jotqojodcv"                                  Chars in code:       12 jotqojodcv                                    Chars in memory:       10 
+(4, 9) \x87
+"ervsz\x87ade\"fevq\\tcqowt"                  Chars in code:       28 ervsz\x87ade"fevq\tcqowt                      Chars in memory:       24 
+(33, 37) \x5
+"\\y\"fgrxtppkcseeg\\onxjarx\\hyhfn\x5fi"     Chars in code:       41 \y"fgrxtppkcseeg\onxjarx\hyhfn\x5fi           Chars in memory:       35 
+"kxndlabn\\wwumctuzdcfiitrbnn"                Chars in code:       30 kxndlabn\wwumctuzdcfiitrbnn                   Chars in memory:       27 
+"eoosynwhwm"                                  Chars in code:       12 eoosynwhwm                                    Chars in memory:       10 
+(2, 7) \x04
+"\"c\x04"                                     Chars in code:        9 "c\x04                                        Chars in memory:        6 
+"ny\xf6vuwlec"                                Chars in code:       14 ny\xf6vuwlec                                  Chars in memory:       12 
+"ubgxxcvnltzaucrzg\\xcez"                     Chars in code:       25 ubgxxcvnltzaucrzg\xcez                        Chars in memory:       22 
+"pnocjvo\\yt"                                 Chars in code:       13 pnocjvo\yt                                    Chars in memory:       10 
+"fcabrtqog\"a\"zj"                            Chars in code:       18 fcabrtqog"a"zj                                Chars in memory:       14 
+"o\\bha\\mzxmrfltnflv\xea"                    Chars in code:       26 o\bha\mzxmrfltnflv\xea                        Chars in memory:       22 
+"tbfvzwhexsdxjmxejwqqngzixcx"                 Chars in code:       29 tbfvzwhexsdxjmxejwqqngzixcx                   Chars in memory:       27 
+"wdptrakok\"rgymturdmwfiwu"                   Chars in code:       27 wdptrakok"rgymturdmwfiwu                      Chars in memory:       24 
+"reffmj"                                      Chars in code:        8 reffmj                                        Chars in memory:        6 
+"lqm"                                         Chars in code:        5 lqm                                           Chars in memory:        3 
+"\\oc"                                        Chars in code:        6 \oc                                           Chars in memory:        3 
+"p\""                                         Chars in code:        5 p"                                            Chars in memory:        2 
+"ygkdnhcuehlx"                                Chars in code:       14 ygkdnhcuehlx                                  Chars in memory:       12 
+"vsqmv\"bqay\"olimtkewedzm"                   Chars in code:       27 vsqmv"bqay"olimtkewedzm                       Chars in memory:       23 
+(3, 7) \x6
+"isos\x6azbnkojhxoopzetbj\xe1yd"              Chars in code:       32 isos\x6azbnkojhxoopzetbj\xe1yd                Chars in memory:       30 
+"yo\\pgayjcyhshztnbdv"                        Chars in code:       22 yo\pgayjcyhshztnbdv                           Chars in memory:       19 
+"fg\"h"                                       Chars in code:        7 fg"h                                          Chars in memory:        4 
+"vcmcojolfcf\\\\oxveua"                       Chars in code:       23 vcmcojolfcf\\oxveua                           Chars in memory:       19 
+(24, 29) \x69
+"w\"vyszhbrr\"jpeddpnrjlca\x69bdbopd\\z"      Chars in code:       40 w"vyszhbrr"jpeddpnrjlca\x69bdbopd\z           Chars in memory:       35 
+"jikeqv"                                      Chars in code:        8 jikeqv                                        Chars in memory:        6 
+"\"dkjdfrtj"                                  Chars in code:       12 "dkjdfrtj                                     Chars in memory:        9 
+"is"                                          Chars in code:        4 is                                            Chars in memory:        2 
+"hgzx"                                        Chars in code:        6 hgzx                                          Chars in memory:        4 
+"z\""                                         Chars in code:        5 z"                                            Chars in memory:        2 
+"woubquq\\ag\""                               Chars in code:       15 woubquq\ag"                                   Chars in memory:       11 
+"xvclriqa\xe6ltt"                             Chars in code:       17 xvclriqa\xe6ltt                               Chars in memory:       15 
+"tfxinifmd"                                   Chars in code:       11 tfxinifmd                                     Chars in memory:        9 
+"mvywzf\"jz"                                  Chars in code:       12 mvywzf"jz                                     Chars in memory:        9 
+"vlle"                                        Chars in code:        6 vlle                                          Chars in memory:        4 
+(12, 17) \x25
+"c\"rf\"wynhye\x25vccvb\""                    Chars in code:       26 c"rf"wynhye\x25vccvb"                         Chars in memory:       21 
+"zvuxm"                                       Chars in code:        7 zvuxm                                         Chars in memory:        5 
+"\xf2\"jdstiwqer\"h"                          Chars in code:       20 \xf2"jdstiwqer"h                              Chars in memory:       16 
+(12, 16) \x9
+"kyogyogcknbzv\x9f\\\\e"                      Chars in code:       24 kyogyogcknbzv\x9f\\e                          Chars in memory:       20 
+"kspodj\"edpeqgypc"                           Chars in code:       19 kspodj"edpeqgypc                              Chars in memory:       16 
+"oh\\x\\h"                                    Chars in code:       10 oh\x\h                                        Chars in memory:        6 
+"julb"                                        Chars in code:        6 julb                                          Chars in memory:        4 
+"bmcfkidxyilgoy\\xmu\"ig\\qg"                 Chars in code:       29 bmcfkidxyilgoy\xmu"ig\qg                      Chars in memory:       24 
+"veqww\"ea"                                   Chars in code:       11 veqww"ea                                      Chars in memory:        8 
+"fkdbemtgtkpqisrwlxutllxc\"mbelhs"            Chars in code:       34 fkdbemtgtkpqisrwlxutllxc"mbelhs               Chars in memory:       31 
+"e"                                           Chars in code:        3 e                                             Chars in memory:        1 
+(2, 7) \x50
+"ecn\x50ooprbstnq"                            Chars in code:       18 ecn\x50ooprbstnq                              Chars in memory:       16 
+"\"\xe8\"ec\xeah\"qo\\g\"iuqxy\"e\"y\xe7xk\xc6d" Chars in code:       48 "\xe8"ec\xeah"qo\g"iuqxy"e"y\xe7xk\xc6d       Chars in memory:       39 
+"lwj\"aftrcqj"                                Chars in code:       14 lwj"aftrcqj                                   Chars in memory:       11 
+(4, 9) \x97
+"jduij\x97zk\"rftjrixzgscxxllpqx\"bwwb"       Chars in code:       39 jduij\x97zk"rftjrixzgscxxllpqx"bwwb           Chars in memory:       35 
+"fqcditz"                                     Chars in code:        9 fqcditz                                       Chars in memory:        7 
+(0, 5) \x19
+"f\x19azclj\"rsvaokgvty\"aeq"                 Chars in code:       29 f\x19azclj"rsvaokgvty"aeq                     Chars in memory:       25 
+(3, 7) \x9
+(15, 20) \x67
+"erse\x9etmzhlmhy\x67yftoti"                  Chars in code:       28 erse\x9etmzhlmhy\x67yftoti                    Chars in memory:       26 
+"lsdw\xb3dmiy\\od"                            Chars in code:       18 lsdw\xb3dmiy\od                               Chars in memory:       15 
+(0, 4) \x6
+"x\x6fxbljsjdgd\xaau"                         Chars in code:       21 x\x6fxbljsjdgd\xaau                           Chars in memory:       19 
+(7, 12) \x78
+"hjg\\w\"\x78uoqbsdikbjxpip\"w\"jnhzec"       Chars in code:       39 hjg\w"\x78uoqbsdikbjxpip"w"jnhzec             Chars in memory:       33 
+"gk"                                          Chars in code:        4 gk                                            Chars in memory:        2 
+"\\zrs\\syur"                                 Chars in code:       13 \zrs\syur                                     Chars in memory:        9 
