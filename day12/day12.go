@@ -27,7 +27,10 @@ func sumList(inputList []interface{}) float64 {
 
 func sumMap(inputMap map[string]interface{}) float64 {
 	total := 0.0
-	for _, v := range inputMap {
+	for k, v := range inputMap {
+		if k == "red" {
+			continue
+		}
 		switch vType := v.(type) {
 		case float64:
 			total += v.(float64)
@@ -35,7 +38,10 @@ func sumMap(inputMap map[string]interface{}) float64 {
 			total += sumList(v.([]interface{}))
 		case map[string]interface{}:
 			total += sumMap(v.(map[string]interface{}))
-		case string: // Don't care.
+		case string:
+			if v.(string) == "red" {
+				return 0
+			}
 		default:
 			panic(fmt.Sprintf("Unexpected type %T with value \"%v\"\n", vType, v))
 
