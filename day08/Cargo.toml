@@ -9,4 +9,4 @@ name = "day08"
 path = "day08.rs"
 
 [dependencies]
-regex = "0.1.80"
+regex = "0.2.1"
