@@ -11,5 +11,10 @@ executable day12
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
                        , aeson
+                       , text
                        , bytestring
+                       , scientific
+                       , containers
+                       , unordered-containers
+                       , vector
 
