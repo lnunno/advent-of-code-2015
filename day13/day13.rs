@@ -49,6 +49,7 @@ impl Person {
     }
 }
 
+#[derive(Debug)]
 struct Table {
     chairs: Vec<Person>,
 }
@@ -70,8 +71,8 @@ impl Table {
         return false;
     }
 
-    fn get_name(&self, name: &str) -> Option<&mut Person> {
-        for p in self.chairs {
+    fn get_name(&mut self, name: &str) -> Option<&mut Person> {
+        for p in &mut (self.chairs) {
             if p.name == name {
                 return Some(p);
             }
@@ -129,6 +130,7 @@ fn part1() {
             None => panic!("No match for '{}'", line),
         }
     }
+    println!("{:?}", table);
 }
 
 fn main() {
