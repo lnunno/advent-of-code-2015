@@ -32,37 +32,77 @@ impl Person {
             }
         }
     }
-}
 
-
-impl Hash for Person {
-    fn hash<H: Hasher>(&self, state: &mut H) {
-        self.name.hash(state);
+    /**
+    * Calculate the total happiness of sitting by neighbors n1 and n2.
+    */
+    fn total_happiness(&self, n1: &Person, n2: &Person) -> isize {
+        let pn1 = match self.preferences.get(n1.name.as_str()) {
+            Some(v) => *v,
+            None => 0,
+        };
+        let pn2 = match self.preferences.get(n2.name.as_str()) {
+            Some(v) => *v,
+            None => 0,
+        };
+        return pn1 + pn2;
     }
 }
-
-impl PartialEq for Person {
-    fn eq(&self, other: &Person) -> bool {
-        return self.name == other.name;
-    }
-}
-
-impl Eq for Person {}
-
-// impl fmt::Debug for Person {
-//     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-//         write!(f, "Person {{ x: {}, y: {} }}", self.x, self.y)
-//     }
-// }
 
 struct Table {
     chairs: Vec<Person>,
 }
 
+
+// impl fmt::Debug for Table {
+//     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+//         write!(f, "Table {{ chairs: }}")
+//     }
+// }
+
+impl Table {
+    fn contains_name(&self, name: &str) -> bool {
+        for p in &(self.chairs) {
+            if p.name == name {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    fn get_name(&self, name: &str) -> Option<&mut Person> {
+        for p in self.chairs {
+            if p.name == name {
+                return Some(p);
+            }
+        }
+        return None;
+    }
+
+    fn neighbors(&self, index: usize) -> (&Person, &Person) {
+        if index == 0 {
+            return (&self.chairs[&self.chairs.len() - 1], &self.chairs[1]);
+        } else if index == (self.chairs.len() - 1) {
+            return (&self.chairs[index - 1], &self.chairs[0]);
+        } else {
+            return (&self.chairs[index - 1], &self.chairs[index + 1]);
+        }
+    }
+
+    fn total_happiness(&self) -> isize {
+        let mut happiness: isize = 0;
+        for (i, p) in self.chairs.iter().enumerate() {
+            let (n1, n2) = self.neighbors(i);
+            happiness += p.total_happiness(n1, n2);
+        }
+        return happiness;
+    }
+}
+
 fn part1() {
     let file = File::open("test-input.txt").unwrap();
     let reader = BufReader::new(&file);
-    let mut people: HashMap<String, Person> = HashMap::new();
+    let mut table = Table { chairs: Vec::with_capacity(10) };
     let regex = Regex::new(r"(?P<person>[[:alpha:]]+).*(?P<func>gain|lose) (?P<amount>[[:digit:]]+) happiness units by sitting next to (?P<neighbor>[[:alpha:]]+)\.$").unwrap();
     for wrapped_line in reader.lines() {
         let line = wrapped_line.unwrap();
@@ -76,21 +116,19 @@ fn part1() {
                 let neighbor = capture.name("neighbor").unwrap().as_str();
                 println!("{:?}", capture);
                 let new_map: HashMap<String, isize> = HashMap::new();
-                let person: &mut Person;
-                if !people.contains_key(person_name) {
-                    people.insert(String::from(person_name),
-                                  Person {
-                                      name: String::from(person_name),
-                                      preferences: new_map,
-                                  });
+                if !table.contains_name(person_name) {
+                    let person = Person {
+                        name: String::from(person_name),
+                        preferences: new_map,
+                    };
+                    table.chairs.push(person);
                 }
-                person = people.get_mut(person_name).unwrap();
+                let mut person = table.get_name(person_name).unwrap();
                 person.update_preferences(neighbor, func, amount);
             }
             None => panic!("No match for '{}'", line),
         }
     }
-    println!("{:?}", people);
 }
 
 fn main() {
