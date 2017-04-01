@@ -102,6 +102,13 @@ fn part1() {
     let file = File::open("input.txt").unwrap();
     let reader = BufReader::new(&file);
     let mut table = Table { chairs: Vec::with_capacity(10) };
+
+    // Comment this out to get day 01 answer.
+    table.chairs.push(Person {
+        name: String::from("Me"),
+        preferences: HashMap::new(),
+    });
+
     let regex = Regex::new(r"(?P<person>[[:alpha:]]+).*(?P<func>gain|lose) (?P<amount>[[:digit:]]+) happiness units by sitting next to (?P<neighbor>[[:alpha:]]+)\.$").unwrap();
     for wrapped_line in reader.lines() {
         let line = wrapped_line.unwrap();
