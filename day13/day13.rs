@@ -1,18 +1,25 @@
 extern crate regex;
+extern crate permutohedron;
 
 use std::io::prelude::*;
 use std::io::BufReader;
-use std::str;
 use std::fs::File;
 use std::collections::HashMap;
-use regex::Regex;
-use std::hash::{Hash, Hasher};
 use std::fmt;
 
-#[derive(Debug)]
+use regex::Regex;
+use permutohedron::Heap;
+
+#[derive(Debug, Clone)]
 struct Person {
     name: String,
     preferences: HashMap<String, isize>,
+}
+
+impl fmt::Display for Person {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "{}", self.name)
+    }
 }
 
 impl Person {
@@ -33,9 +40,7 @@ impl Person {
         }
     }
 
-    /**
-    * Calculate the total happiness of sitting by neighbors n1 and n2.
-    */
+    /// Calculate the total happiness of sitting by neighbors n1 and n2.
     fn total_happiness(&self, n1: &Person, n2: &Person) -> isize {
         let pn1 = match self.preferences.get(n1.name.as_str()) {
             Some(v) => *v,
@@ -49,17 +54,10 @@ impl Person {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 struct Table {
     chairs: Vec<Person>,
 }
-
-
-// impl fmt::Debug for Table {
-//     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-//         write!(f, "Table {{ chairs: }}")
-//     }
-// }
 
 impl Table {
     fn contains_name(&self, name: &str) -> bool {
@@ -101,13 +99,12 @@ impl Table {
 }
 
 fn part1() {
-    let file = File::open("test-input.txt").unwrap();
+    let file = File::open("input.txt").unwrap();
     let reader = BufReader::new(&file);
     let mut table = Table { chairs: Vec::with_capacity(10) };
     let regex = Regex::new(r"(?P<person>[[:alpha:]]+).*(?P<func>gain|lose) (?P<amount>[[:digit:]]+) happiness units by sitting next to (?P<neighbor>[[:alpha:]]+)\.$").unwrap();
     for wrapped_line in reader.lines() {
         let line = wrapped_line.unwrap();
-        println!("{} ", line);
         let maybe_match = regex.captures(line.as_str());
         match maybe_match {
             Some(capture) => {
@@ -115,7 +112,6 @@ fn part1() {
                 let func = capture.name("func").unwrap().as_str();
                 let amount = capture.name("amount").unwrap().as_str();
                 let neighbor = capture.name("neighbor").unwrap().as_str();
-                println!("{:?}", capture);
                 let new_map: HashMap<String, isize> = HashMap::new();
                 if !table.contains_name(person_name) {
                     let person = Person {
@@ -130,7 +126,24 @@ fn part1() {
             None => panic!("No match for '{}'", line),
         }
     }
-    println!("{:?}", table);
+    println!("{:?} {}", table, table.total_happiness());
+
+    let mut optimal_happiness = 0;
+    let heap = Heap::new(&mut table.chairs);
+
+    for data in heap {
+        for p in &data {
+            print!("{},", p);
+        }
+        print!("\n");
+        let temp_table = Table { chairs: data };
+        let temp_happiness = temp_table.total_happiness();
+        if temp_happiness > optimal_happiness {
+            optimal_happiness = temp_happiness;
+        }
+    }
+
+    println!("Optimal happiness={}", optimal_happiness);
 }
 
 fn main() {

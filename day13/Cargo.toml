@@ -10,3 +10,4 @@ path = "day13.rs"
 
 [dependencies]
 regex = "0.2.1"
+permutohedron = "0.2.2"
